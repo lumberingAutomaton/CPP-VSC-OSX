@@ -2,7 +2,9 @@ Quick and Dirty; C/C++ from Zero with Visual Studio Code on OSX
 ===
 Things:
 1. F5 for breakpoint debugging.
+
 2. ⌘+B to build an executable.
+
 3. launch.json with example command line arguments and environment variables.
 
 Installing c/c++ breakpoint debugging and intellisense.
