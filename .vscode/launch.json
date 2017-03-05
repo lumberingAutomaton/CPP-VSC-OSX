@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++ Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/a.out",
+            "args": [
+                "commandLineArg1", "commandLineArg2", "commandLineArg3"
+            ],
+            "preLaunchTask": "debug",
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [{
+                "name": "environmentVariableKey",
+                "value": "environmentVariableValue"
+            }],
+            "externalConsole": true,
+            "osx": {
+                "MIMode": "lldb"
+            }
+        }
+    ]
+}
