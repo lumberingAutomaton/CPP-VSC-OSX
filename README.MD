@@ -7,7 +7,7 @@ Things:
 
 Installing c/c++ breakpoint debugging and intellisense.
 ---
-1. Install Command Line Tools from Terminal.
+1. Install Command Line Tools from Terminal. [<sup><sub>source</sub></sup>](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
 ```
     $ xcode-select --install
     # at install confirmation, click "Install"
@@ -30,36 +30,38 @@ Installing c/c++ breakpoint debugging and intellisense.
 ```
 
 VSC Configuration Notes:
-
-1. Task Runner Configuration
+---
+1. Task Runner Configuration. [<sup><sub>source</sub></sup>](https://code.visualstudio.com/docs/editor/tasks)
 ```
     ⌘+P > ext configure task
     # creates tasks.json
 ```
-2. Build Configuration
+2. Build Configuration. [<sup><sub>source</sub></sup>](https://code.visualstudio.com/docs/languages/cpp)
 ```
-    ⌘+P > edit configuration
+    ⌘+P > edit configuration 
     # creates c_cpp_properties.json
 ```
-3. Debugging Configuration.
+3. Debugging Configuration. [<sup><sub>source</sub></sup>](https://code.visualstudio.com/docs/editor/debugging)
 ```
     ⌘+P > open launch
     # creates launch.json
 ```
-VSC C/C++ configuration details at https://code.visualstudio.com/docs/languages/cpp
----
 
 Mac Configuration Notes:
-1. reclaim f-keys
+---
+1. reclaim f-keys. [<sup><sub>source</sub></sup>](https://support.apple.com/en-us/HT204436)
 ```
     ⌘+space > preferences
     # open Keyboard
     # check "use all f-keys as standard".
 ```
-2. reclaim more f-keys
+2. reclaim more f-keys. [<sup><sub>source</sub></sup>](http://apple.stackexchange.com/questions/110525/how-do-i-get-f11-and-f12-to-behave-like-normal-function-keys)
 ```
     ⌘+space > preferences
     # open Mission Control
     # change "Show Desktop" keyboard shortcut
     # chang "Show Dashboard" keyboard shortcut
 ```
+    
+    
+    
